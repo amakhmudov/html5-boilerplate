@@ -3,3 +3,39 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.tal-center{
+	text-align: center;
+}
+.tal-left{
+	text-align: left;
+}
+.tal-right{
+	text-align: right;
+}
+.tt-uppc{
+	text-transform: uppercase;
+}
+.tiles-content{
+	display: table;
+
+	.tiles{
+		display: table-cell;
+		vertical-align: top;
+
+		&.val-middle{
+			vertical-align: middle;
+		}
+		&.val-top{
+			vertical-align: middle;
+		}
+		&.val-bottom{
+			vertical-align: bottom;
+		}
+	}
+}
